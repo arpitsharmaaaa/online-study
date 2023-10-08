@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Viga&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: rgba(212, 170, 244, 1) !important; */
+    background-color: rgb(5, 47, 12) !important;
+}
+
+header {
+   /* background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcNBwcNDQcHBw0HBg0HBwgHBw8ICQgNFREWFiAREx8YHCggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0NFQ8NFSsZFRkrKy03NysrKysrKysrKysrKy0tKysrKysrNysrKysrKysrKysrNysrKysrKys3KystN//AABEIAKgBLAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDBP/EABUQAQEAAAAAAAAAAAAAAAAAAAAR/8QAGgEBAQADAQEAAAAAAAAAAAAAAwIBBgcABP/EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAwDAQACEQMRAD8A8CKNmS+4bKiISQbQioSUaqyo0kG0Io0lGqsqNJRqqA0kG0Io0kGKgmsagJSsYAlKhqIqaxgCUqGAISsaI0g0rGyjSCSQbIqCSsaI0g0kGyKQSVjZAdAS52MRRKSDZURCSDaEVCSjVWVGkg2hFGko1VlRpINVQGko2hFGkgxUE1jUBKVjAEpUNRFTWMASlQwBCVjRGkGlY2UaQSSDZFQSVjQVBpINlFG/Jc6GgCEkGIolJBsqIhJBtCCElG0rKjSQbQijSUaqyo0kGqoDSUbQijSQYqCaxqAlKxgCUqGoiprGAJSoYAhKxojSDSsbKNIJJBsjSDSsbCKN7S5yNEUSko0AQkgxFEpINlREpINVQGko2lZUaSDaEUaSjVWVGkg1VAaSjaEUaSDFQTWNQEpWMASlQ1EVNYwBKVDAEJWNEaQaVjZFQSSDcwG8pc4GIolJBoiiUlGgCEkGIolJBsqIlJBqqA0lG0rKjSQbQijSUaqyo0kGqoDSUbQijSQYqCaxqAlKxgCUqGoiprGAJSoYAhKxojSDSsbkijdrnI0ASlYxFEpINEUSko0AQkgxFEpINlREpINVQGko2lZUaSDaEUaSjVWVGkg1VAaSjaEUaSDFQTWNQEpWMASlQ1EVNYwBKVDAEJWNxAbnc5GIoxWNAEpWMRRKSDRFEpKNAEJIMRRKSDZURKSDVUBpKNpWVGkg2hFGko1VlRpINVQGko2hFGkgxUE1jUBKVjAEpUNRFTWMBU5UNwAbhc6GAPVDEUYrGgCUrGIolJBoiiUlGgCEkGIolJBsqIlJBqqA0lG0rKjSQbQijSUaqyo0kGqoDSUbQijSQYqCaxqAlKxgCUqGoiprG4gNvudDAGKhgD1QxFGKxoAlKxiKJSQaIolJRoAhJBiKJSQbKiJSQaqgNJRtKyo0kG0Io0lGoijSQaqyo0lG0Io0kGKgmsagJSsYAnKhuQDbrnYwBioYA9UMAYqGIoxWNAEpWMRRKSDRFEpKNAEJIMRRKSDZURKSDVUBpKNpWVGkg2hFGko1EUaSDVWVGko2hFGkgxUE1jUBNY3NAbbc7IAxUQBiogDFRAHqyIoxUUASyERRLINEBDIMASyDEBLIUUEMoxQQyDVQEko1AGyFVQGko1UBpINQBspFBiq//9k=);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: #e5e5e5;
+    height: 70px;
+    z-index: 56;
+}
+
+#nav {
+    display: inline-block;
+}
+
+.mid {
+    width: 500px;
+    position: absolute;
+    left: 200px;
+}
+
+.right {
+    position: absolute;
+    width: 900px;
+    right: 10px;
+}
+
+li {
+    font-size: 20px;
+    margin: 10px;
+    display: inline-block;
+}
+
+input {
+
+    border: none;
+    background: none;
+    outline: none;
+    width: 230px;
+    height: 30px;
+    outline: none;
+    font-size: 20px;
+    
+}
+
+.text {
+
+    background: rgba(85, 183, 239, 1);
+    border-radius: 6px;
+    padding: 8px;
+    color: white;
+    margin-left: 170px;
+}
+
+.password {
+    background: rgba(85, 183, 239, 1);
+    border-radius: 6px;
+    padding: 8px;
+    margin-left: 10px;
+    color: white;
+
+}
+
+.home {
+    background: rgba(234, 134, 134, 1);
+    padding: 5px 20px 5px 20px;
+    border-radius: 8px;
+    margin: 15px 20px 0 70px;
+    
+}
+
+.service {
+    background: rgba(234, 134, 134, 1);
+    padding: 5px 20px 5px 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.about {
+    background: rgba(121, 218, 206, 1);
+    padding: 5px 20px 5px 20px;
+    border-radius: 8px;
+    transition: 0.5s ease-in;
+}
+
+.logo {
+   
+    width: 1cm;
+    height: 5cm;  
+    display: flex; 
+    margin-top: -60px;
+    margin-left: 0;
+  
+}
+.logo img{
+   
+   width: auto;
+   max-height: 100%;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.btn1 {
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: blueviolet;
+}
+
+.bg {
+    background: rgb(92, 91, 39);
+    color: white;
+}
+
+.com {
+    background-color: aqua;
+    background-size: 50vh;
+}
+
+
+.layout {
+    /* background: url(/img/blob-scene-haikei\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    position: absolute;
+    width: 100%;
+    height: 950px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 60px;
+  }
+ 
+.layout div{
+    background-color: #0000001f;   
+}
+
+
+.hii{
+    margin-left: 610px;
+    background: #c2000000 !important;
+    border: none !important;
+    border-radius: 0px 0px 0 20px !important;
+}
+.login{
+    color: #080808;
+}
+/* .same{
+    transition: 3s;
+    z-index: 11;
+}
+.same:hover{
+    color: #fff;
+}
+.round{
+    filter: blur(10px);
+    transition: 4s ease;
+    z-index: 10;
+}
+.round:hover{
+    transform: rotate(500deg);
+    filter: saturate(8) blur(15px);
+} */
+
+.portfolio-details {
+    border-radius:  0 5px ;
+    position: none;
+    border-radius: 10px;
+    background: #00000093 !important;
+    bottom: 660px;
+    height: 250px;
+    left: 60px;
+    width: 433px;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0;
+    transform: translateY(20%);
+    transition: transform 0.5s ease, opacity 0.3s ease;
+  }
+
+  .div:hover .portfolio-details {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+
+.pointer{
+    cursor: pointer;
+}
+
+
+  .button{
+   left: 33px;
+    position: relative;
+    top: 20px;
+    background-color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-right: 10px;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+.button a{
+  color: #000;
+  text-decoration: none !important;
+}
+
+.button:hover a{
+  color: #fff;
+}
+  .button:hover {
+    color: #fff;
+    background-color: #000;
+  }
+  .center{
+    font-family: 'Kaushan Script', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(255, 0, 85);
+  }
+
+  .div .para {
+    font-family: 'Kaushan Script', cursive;
+    top: 20px;
+    left: 10px;
+    position: relative;
+     color: #ffffff;
+     font-size: 18px;
+     text-align: left;
+  }
+
+  .div{
+    border-radius: 10px;
+  }
+  .div1{
+    background: url(/img/math4.png);
+    background-size: cover;
+  }
+  .div2{
+    background: url(/img/science1.png);
+    background-size: cover;
+  }
+  .div3{
+    background: url(/img/math1.png);
+    background-size: cover;
+  }
+  .div4{
+    background: url(/img/science2.png);
+    background-size: cover;
+  }
+  .div5{
+    background: url(/img/math2.png);
+    background-size: cover;
+  }
+  .div6{
+    background: url(/img/science3.png);
+    background-size: cover;
+  }
+  .div7{
+    background: url(/img/math3.png);
+    background-size: cover;
+  }
+  .div8{
+    background: url(/img/science4.png);
+    background-size: cover;
+  }
+
+  a{
+    text-decoration: none;
+  }
